@@ -48,7 +48,7 @@ body {
 }
 
 .top button {
-    background-color: blue;
+    background-color: #3882f6;
     border-radius: 10px;
 }
 
@@ -59,16 +59,28 @@ body {
     align-items: center;
 }
 
+.inf_section .inf_section_header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
 .inf_section .informations {
     display: flex;
     gap: 16px;
 }
 
 .quote {
+    background: #e5e7eb;
     flex: 4;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote .quote_content {
+    font-size: 36px;
+    font-style: light italic;
 }
 
 .ad {
