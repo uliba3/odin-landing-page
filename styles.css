@@ -3,11 +3,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+}
+
+.headertop {
+    width: 100%;
 }
 
 .header {
     background: #1f2937;
-    flex: 1;
     display: flex;
     justify-content: space-around;
 }
@@ -25,38 +29,58 @@ body {
 
 .header ul li {
     list-style-type: none;
-    justify-content: center;
     color: #e5e7eb;
     font-size: 18px;
 }
 
 .top {
     background: #1f2937;
-    flex: 4;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    padding: 50px;
 }
 
 .top div {
     color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .top .awesome {
     font-size: 48px;
     font-weight: 800;
+    height: 100px;
+    width: 400px;
+}
+
+.top .top_content {
+    height: 40px;
+    width: 400px;
 }
 
 .top button {
     background-color: #3882f6;
-    border-radius: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 24px;
+    width: 100px;
+}
+
+.top .placeholder {
+    background: grey;
+    padding: 70px 50px;
 }
 
 .inf_section {
-    flex: 4;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
+    gap: 25px;
 }
 
 .inf_section .inf_section_header {
@@ -65,32 +89,74 @@ body {
     color: #1f2937;
 }
 
+.inf_section .boxes {
+    display: flex;
+    gap: 100px;
+}
+
+.inf_section .boxes div {
+    background-color: #f9faf8;
+    padding: 48px;
+    border: 2px solid #3882f6;
+    margin: 0px;
+    border-radius: 25px;
+}
+
 .inf_section .informations {
     display: flex;
-    gap: 16px;
+    gap: 100px;
+}
+
+.inf_section .informations div {
+    width: 100px;
 }
 
 .quote {
     background: #e5e7eb;
-    flex: 4;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
+    width: 100%;
 }
 
 .quote .quote_content {
     font-size: 36px;
     font-style: light italic;
+    color: #1f2937;
+    width: 750px;
+}
+
+.quote .author {
+    margin-left: 600px;
 }
 
 .ad {
-    flex: 4;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: #3882f6;
+    margin: 50px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.ad div {
+    color: #e5e7eb;
+}
+
+.ad button {
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
 }
 
 .buttom {
-    flex: 1;
     display: flex;
     justify-content: center;
+    background-color: #1f2937;
+    width: 100%;
+    color: #e5e7eb;
+    padding: 25px;
 }
